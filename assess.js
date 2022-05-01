@@ -1,5 +1,5 @@
-var list = ["p01", "p02", "p03", "p04", "p05", "p06", "p07", "p08", "p09", "p10", "sat11", "sat12"];
-var ans = ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"];
+var list = ["p01", "p02", "p03", "p04", "p05", "p06", "p07", "p08", "p09", "p10", "sat11", "sat12", "sat13"];
+var ans = ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"];
 
 function genNewTime() {
     var newTime = lastTime + Math.floor((Math.random() * 1.5 + 1.5) * 1000);
